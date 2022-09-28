@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My favorite page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 1em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 50%;
+        width: 60%;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="#">
+          <img src="logo.png" alt="logo" width="150" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="places.html">Favorite places</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="img3.jpg" class="card-img-top" alt="my image" />
+            <div class="card-body">
+              <h5 class="card-title">wild nature</h5>
+              <p class="card-text">
+                Nature is beautiful and amazing. I believe that our main goal of
+                staying on earth is to preserve it in the form in which it was
+                created!
+              </p>
+              <a
+                href="https://www.greenpeace.org/international/"
+                target="_blank"
+                class="btn btn-primary"
+                >See more!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img 4.jpg" class="card-img-top" alt="my image" />
+            <div class="card-body">
+              <h5 class="card-title">Archaeology</h5>
+              <p class="card-text">
+                Archaeology is an amazing science of knowledge of civilization
+                and ourselves! If you want to know the future, look into the
+                past.
+              </p>
+              <a
+                href="https://www.ajaonline.org/"
+                target="_blank"
+                class="btn btn-primary"
+                >see more</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="img 2.jpg" class="card-img-top" alt="my image" />
+            <div class="card-body">
+              <h5 class="card-title">muscle car</h5>
+              <p class="card-text">
+                These are already museum exhibits made by people of the past and
+                wild as nature. But you can still meet them, touch them!
+              </p>
+              <a
+                href="https://www.musclecarsforsaleinc.com/"
+                target="_blank"
+                class="btn btn-primary"
+                >see more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
